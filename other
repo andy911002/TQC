@@ -1,0 +1,18 @@
+1加到任意數的總和
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () 
+{
+     int i=0, total=0,d;
+     scanf("%d",&d);
+     while (i <=d)
+     {
+          
+          total += i;
+          i++;
+     } 
+         
+     printf("1加到任意數的總和:%d\n", total);
+}
